@@ -27,8 +27,8 @@ Getting started
 #
 |*Information:* | *Response:* |
 |--------------|------------ |
-| *Made By :*   |        IW deleted     |
-| *User :*      |iwdeleted |
-| *Server :*   | https://discord.gg/toolfr |
+| *Made By :*   |       ERROR404     |
+| *User :*      |ragnarok |
+| *Server :*   | https://discord.gg/3BNT2BpN |
 
                                                           
