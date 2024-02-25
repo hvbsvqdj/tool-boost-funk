@@ -27,8 +27,8 @@ Getting started
 #
 |*Information:* | *Response:* |
 |--------------|------------ |
-| *Made By :*   |       ERROR404     |
-| *User :*      |ragnarok |
+| *Made By :*   |       alphavodka     |
+| *User :*      |alphavodka |
 | *Server :*   | https://discord.gg/3BNT2BpN |
 
                                                           
